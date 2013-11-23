@@ -1,4 +1,4 @@
-package is.ru.helloworld;
+package is.ru.mylla;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
