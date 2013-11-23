@@ -1,3 +1,9 @@
 !#/bin/bash
 
-// to be implemented
+mvn package
+
+mkdir tmp
+
+cp target/mylla-1.0-SNAPSHOT-jar-with-dependencies.jar tmp/mylla-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+java -jar tmp/mylla-1.0-SNAPSHOT-jar-with-dependencies.jar
