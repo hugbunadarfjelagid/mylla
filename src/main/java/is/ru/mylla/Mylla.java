@@ -7,7 +7,7 @@ public class Mylla
 {
 	public static void main(String[] args)
 	{
-		get(new Route("/mylla"))
+		get(new Route("/mylla")
 		{
 			@Override
 			public Object handle(Request request, Response response)
@@ -16,6 +16,6 @@ public class Mylla
 				return game.play();
 //				System.out.println(game.play());				
 			}
-		}
+		});
 	}
 }
