@@ -1,3 +1,5 @@
+package is.ru.mylla;
+
 public class Mylla
 {
 	public static void main(String[] args)
